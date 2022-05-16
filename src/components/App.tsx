@@ -1,9 +1,16 @@
 import "./../assets/scss/App.scss";
+import { QueryClient, QueryClientProvider } from "react-query";
 
-const App = () => (
-  <div className="app">
-    <h1>Starting code challenge :)</h1>
-  </div>
-);
+import Home from "./Pages/Home";
+
+const queryClient = new QueryClient();
+
+const App = () => {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Home />
+    </QueryClientProvider>
+  );
+};
 
 export default App;
