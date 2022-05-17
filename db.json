@@ -2,18 +2,15 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "reminder_description": "Code review with SonicQ",
+      "reminder_date": "2022-05-17T09:03:26.993Z",
+      "reminder_state": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "reminder_description": "Another interview",
+      "reminder_date": "2022-05-17T09:03:26.993Z",
+      "reminder_state": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

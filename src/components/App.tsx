@@ -1,14 +1,14 @@
 import "./../assets/scss/App.scss";
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import Home from "./Pages/Home";
+import AppRouter from "../AppRouter";
 
 const queryClient = new QueryClient();
 
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
-      <Home />
+      <AppRouter />
     </QueryClientProvider>
   );
 };
