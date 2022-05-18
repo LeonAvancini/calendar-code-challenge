@@ -2,15 +2,21 @@
   "posts": [
     {
       "id": 1,
-      "reminder_description": "Code review with SonicQ",
-      "reminder_date": "2022-05-17T09:03:26.993Z",
-      "reminder_state": 1
+      "description": "Another interview",
+      "date": "2022-05-17T09:03:26.993Z",
+      "state": 0
     },
     {
       "id": 2,
-      "reminder_description": "Another interview",
-      "reminder_date": "2022-05-17T09:03:26.993Z",
-      "reminder_state": 1
+      "description": "Meeting with SoniQ and code :)",
+      "date": "2022-05-17T09:03:26.993Z",
+      "state": 1
+    },
+    {
+      "id": 3,
+      "description": "Test reminder",
+      "date": "2022-05-22T09:03:26.993Z",
+      "state": 1
     }
   ]
 }

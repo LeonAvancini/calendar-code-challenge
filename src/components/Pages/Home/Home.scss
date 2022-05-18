@@ -1,0 +1,13 @@
+.days-container {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

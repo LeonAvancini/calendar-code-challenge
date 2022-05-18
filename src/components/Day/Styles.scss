@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+  width: 300px;
+}
+.reminder-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px;
+}
+.button-style {
+  padding: 5px;
+  margin: 10px;
+  &:first-child {
+    margin-left: 0px;
+  }
+}
+.buttons-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.date-typography {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
